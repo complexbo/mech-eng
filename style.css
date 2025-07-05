@@ -136,6 +136,20 @@ background: #0d1b2a;
 
 
 
+contact-footer{ background: #0d1b2a; color: #fff; padding: 20px 10px; text-align: center;  position:sticky; bottom:0;}
+
+footer img { width: 24px; margin: 0 10px; }
+
+footer p { font-size: 0.9rem; }
+
+@keyframes fadeIn { from {opacity: 0; transform: translateY(20px);} to {opacity: 1; transform: translateY(0);} }
+
+@media (max-width: 768px) { .about-section { margin: 20px; padding: 25px; } }
+
+
+
+
+
 
 @media(min-width:600px) 
 {
