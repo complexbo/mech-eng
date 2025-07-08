@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }body { font-family: 'Poppins', sans-serif; background: whitesmoke; color: #222; line-height: 1.6; }
 
-header { background: #0d1b2a; color: #fff; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; }
+header {position: fixed;
+        bottom: 0;
+        background: #0d1b2a; color: #fff; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; }
 
 header h2{ color:white;}
 
@@ -91,8 +93,6 @@ footer p { font-size: 0.9rem; }
 
 
     footer{
-        position: fixed;
-        bottom: 0;
         width:100%;
         margin-top: 10px;
         height: 2.3rem;
