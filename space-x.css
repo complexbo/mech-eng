@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }body { font-family: 'Poppins', sans-serif; background: whitesmoke; color: #222; line-height: 1.6; }
 
-header {position: fixed;
-        bottom: 0;
+header {position: sticky;
+        top: 0;
         background: #0d1b2a; color: #fff; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; }
 
 header h2{ color:white;}
@@ -39,7 +39,7 @@ h1, h2, h3 {
 }
 
 /* Footer Styles */
-footer {position: sticky; bottom: 0;
+footer {
 background: #0d1b2a; color: #fff; padding: 20px 10px; text-align: center; }
 
 footer img { width: 24px; margin: 0 10px; }
@@ -92,7 +92,7 @@ footer p { font-size: 0.9rem; }
 
 
 
-    footer{
+    footer{position:bottom; bottom:0;
         width:100%;
         margin-top: 10px;
         height: 2.3rem;
